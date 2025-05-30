@@ -1,51 +1,64 @@
-# E-Commerce Public Data Analysis with Python - Dicoding
-![E-Commerce Data Dashboard](dashboard.gif)
 
-[E-Commerce Data Dashboard Streamlit App](https://e-commerce-data-analyst.streamlit.app/)
+---
 
-## Table of Contents
-- [Overview](#overview)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Data Sources](#data-sources)
+# Analisis Data Publik E-Commerce dengan Python - Dicoding
+## Ringkasan
 
-## Overview
-This project is a data analysis and visualization project focused on e-commerce public data. It includes code for data wrangling, exploratory data analysis (EDA), and a Streamlit dashboard for interactive data exploration. This project aims to analyze data on the E-Commerce Public Dataset.
+Proyek ini merupakan analisis dan visualisasi data yang berfokus pada data publik e-commerce. Di dalamnya terdapat kode untuk proses data wrangling, analisis data eksploratori (EDA), serta pembuatan dasbor interaktif menggunakan Streamlit. Tujuan utama proyek ini adalah menganalisis dataset publik E-Commerce.
 
-## Project Structure
-- `dashboard/`: This directory contains dashboard.py which is used to create dashboards of data analysis results.
-- `data/`: Directory containing the raw CSV data files.
-- `notebook.ipynb`: This file is used to perform data analysis.
-- `notebook_ID.ipynb`: notebook.ipynb in Indonesian.
-- `README.md`: This documentation file.
+---
 
-## Installation
-1. Clone this repository to your local machine:
+## Struktur Proyek
+
+* `dashboard/`: Folder yang berisi `dashboard.py`, digunakan untuk membuat dasbor hasil analisis data.
+* `data/`: Folder berisi file data mentah berformat CSV.
+* `notebook.ipynb`: Notebook utama untuk melakukan analisis data.
+* `notebook_ID.ipynb`: Versi bahasa Indonesia dari notebook.ipynb.
+* `README.md`: File dokumentasi proyek ini.
+
+---
+
+## Instalasi
+
+1. Salin repositori ini ke komputermu dengan perintah:
+
 ```
-git clone https://github.com/mhdhfzz/data-analyst-dicoding.git
+git clone https://github.com/thmmoct/submission_Membangun-Proyek-Machine-Learning.git
 ```
-2. Go to the project directory
+
+2. Masuk ke direktori proyek:
+
 ```
-cd data-analyst-dicoding
+cd submission
 ```
-3. Install the required Python packages by running:
+
+3. Instal semua pustaka Python yang diperlukan:
+
 ```
 pip install -r requirements.txt
 ```
 
-## Usage
-1. **Data Wrangling**: Data wrangling scripts are available in the `notebook.ipynb` file to prepare and clean the data.
+---
 
-2. **Exploratory Data Analysis (EDA)**: Explore and analyze the data using the provided Python scripts. EDA insights can guide your understanding of e-commerce public data patterns.
+## Cara Menggunakan
 
-3. **Visualization**: Run the Streamlit dashboard for interactive data exploration:
+1. **Data Wrangling**: Script untuk membersihkan dan menyiapkan data bisa ditemukan di file `notebook.ipynb`.
+
+2. **Analisis Data Eksploratori (EDA)**: Gunakan script Python yang disediakan untuk mengeksplorasi dan memahami pola-pola dalam data publik e-commerce.
+
+3. **Visualisasi**: Jalankan dasbor interaktif dengan Streamlit untuk eksplorasi data secara langsung:
 
 ```
 cd data-analyst-dicoding/dashboard
 streamlit run dashboard.py
 ```
-Access the dashboard in your web browser at `http://localhost:8501`.
 
-## Data Sources
-The project uses E-Commerce Public Dataset from [Belajar Analisis Data dengan Python's Final Project](https://drive.google.com/file/d/1MsAjPM7oKtVfJL_wRp1qmCajtSG1mdcK/view) offered by [Dicoding](https://www.dicoding.com/).
+Buka dasbor ini melalui browser di `http://localhost:8501`.
+
+---
+
+## Sumber Data
+
+Proyek ini memanfaatkan **E-Commerce Public Dataset** dari proyek akhir [Belajar Analisis Data dengan Python](https://drive.google.com/file/d/1MsAjPM7oKtVfJL_wRp1qmCajtSG1mdcK/view) yang disediakan oleh [Dicoding](https://www.dicoding.com/).
+
+---
