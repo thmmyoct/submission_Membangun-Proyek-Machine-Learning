@@ -49,7 +49,7 @@ pip install -r requirements.txt
 3. **Visualisasi**: Jalankan dasbor interaktif dengan Streamlit untuk eksplorasi data secara langsung:
 
 ```
-cd data-analyst-dicoding/dashboard
+cd submission/dashboard
 streamlit run dashboard.py
 ```
 
